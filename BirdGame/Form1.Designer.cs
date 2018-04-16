@@ -63,6 +63,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bird Game";
+            this.TopMost = true;
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.formBirdGame_Paint);
             this.ResumeLayout(false);
 
