@@ -9,6 +9,8 @@ namespace BirdGame
 {
     public static class GraphicsExtensions
     {
+        // Draw and fill circle (bird) or wall in one extended method
+
         public static void DrawCircle(this Graphics g, Pen pen, Brush brush, float centerX, float centerY, float radius)
         {
             g.DrawEllipse(pen, centerX - radius, centerY - radius, radius + radius, radius + radius);
